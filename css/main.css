@@ -1,0 +1,232 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+.header {
+	background: #20918c;
+}
+
+.wrapper {
+	display: flex;
+	
+}
+
+.container {
+	width: 1185px;
+	margin: 0 auto;
+}  
+
+.logo {
+	font-size: 1.6em;
+	margin-right: 486px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo span {
+	color: #cfc91d;
+}
+
+.menustyle {
+	list-style: none;
+	padding-top: 2px;
+}
+
+li {
+	float: left;
+}
+
+.menu {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 35px;
+}
+
+.intro {
+	background: url('../img/bg.png') no-repeat center top / cover;
+	text-align: center;
+	padding-top: 210px;
+	padding-bottom: 220px;
+	
+}
+
+.introtext {
+	font-size: 2.2em;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.logostyle {
+	font-weight: normal 800;
+	font-size: 60px;
+	letter-spacing: 22px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+.micro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+.line {
+	width: 122px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.btn {
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	background: #cfc91d;
+	margin-top: 50px;
+	padding: 15px 40px;
+	transition: 0.5s all ease;
+}
+
+.btn:hover {
+	background: #cda813;
+}
+
+
+.about {
+	padding-top: 85px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: #02918c;
+}
+
+.aboutme {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.lineabout {
+	font-size: 20px;
+}
+
+.textabout {
+	line-height: 45px;
+	margin-left: 5px;
+	font-size: 17px;
+}
+.textabout span {
+	font-weight: 800;
+	font-size: 23px;
+}
+
+.skill {
+	display: flex;
+}
+
+.skill-source {
+	width: 180px;
+	margin-top: 110px;
+	margin-left: 88px;
+}
+
+.services-bg {
+	background: url(../img/service-image.png) no-repeat center / cover;
+	height: 800px;
+}
+
+.service-logo {
+	color: #02918c;
+	font-size: 50px;
+	padding-top: 74px;
+}
+
+.line-services {
+	color: #02918c;
+	padding-top: 15px;
+	font-size: 24px;
+}
+
+.text-services {
+	color: #02918c;
+	font-size: 17px;
+	max-width: 500px;
+	line-height: 60px;
+	padding-bottom: 60px;
+}
+
+.services-proces div {
+	text-align: center;
+	color: #02918c;
+	margin-left: 120px;
+	
+}
+
+.block {
+	display: inline-block;
+	max-width: 250px;
+	
+
+	
+}
+
+.contact-me {
+	background: #fff;
+	height: 450px;
+	text-align: center;
+	color: #02918c;
+	
+}
+
+.logo-contact {
+	font-size: 50px;
+	padding-top: 80px;
+}
+
+.contact-line {
+	font-size: 24px;
+}
+
+.contact-service1 {
+	max-width: 30px;
+}
+
+.contact-service2 {
+	max-width: 48px;
+}
+
+.contact-service3 {
+	max-width: 28px;
+}
+
+.contact-service4 {
+	max-width: 30px;
+}
+
+
+.final {
+	background: #000 no-repeat center / cover;
+	height: 100px;
+	text-align: center;
+}
+
+.final-text {
+	color: #fff;
+	font-size: 20px;
+	padding-top: 30px;
+}
