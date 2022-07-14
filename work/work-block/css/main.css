@@ -1,0 +1,224 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-family: 'Ubuntu', sans-serif;
+	/*font-weight: bold;
+	font-size: 35px;*/
+	padding-top: 145px;
+	width: 480px;
+}
+
+.title span {
+	font-size: 45px;
+	padding-top: 25px;
+}
+
+.text {
+	font-family: 'Montserrat', sans-serif;	
+	padding-top: 45px;
+	padding-bottom: 45px;
+	width: 405px;
+	line-height: 30px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	background: #ffd429;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	width: 220px;
+	padding: 20px 0;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #cda813;
+}
+
+.learn {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.present {
+	display: flex;
+}
+
+.learnlog {
+	padding-top: 110px;
+	padding-bottom: 65px;
+}
+
+.time {
+	width: 73px;
+	padding-bottom: 30px;
+}
+
+.beach {
+	padding-bottom: 30px;
+}	
+
+.launch {
+	padding-bottom: 30px;
+}
+
+.mail {
+	background: #ecf3f8;
+	height: 590px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.formlog {
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+.form {
+	padding-bottom: 15px;
+	flex-direction: column;
+}
+
+
+.input {
+	margin-bottom: 15px;
+	border: 1px solid #bbb;
+	padding-left: 22px;
+	width: 340px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: regular;
+	background: #ffd429;
+	border: none;
+	width: 340px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	background: #cda813;
+
+}
+
+.footer {
+	background: #164d7a;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.finish {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: regular;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 1200px){
+	.container {
+		width: 960px;
+	}
+	.plane {
+		width: 493px;
+	}
+}
+@media screen and (max-width: 992px){
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.plane {
+		margin: 0 auto;
+	}
+	.present {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 768px){
+	.container {
+		width: 540px;
+	}
+}
+@media screen and (max-width: 576px){
+	.container {
+		width: 90%;
+	}
+	.plane {
+		width: 290px;
+	}
+	.title {
+		width: 290px;
+	}
+	.text {
+		width: 290px;
+	}
+	.btn {
+		width: 290px;
+	}
+	.input {
+		width: 290px;
+	}
+	.button {
+		width: 290px;
+	}
+}
+
+
