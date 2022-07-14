@@ -1,0 +1,1 @@
+animateCSS('.logo', 'bounce');
